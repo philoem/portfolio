@@ -26,4 +26,9 @@ html {
 body {
   padding: 0;
   line-height: inherit;
+  background-color: #011f33;
+}
+
+h1, p {
+  color: white;
 }
