@@ -15,11 +15,17 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: "Philoem's portfolio",
   meta: [
     {
-      name: 'description',
-      content: 'Qwik site description',
+      name: "It's my Qwik-designed portfolio",
+      content: 'Portfolio built with Qwik',
     },
   ],
+  links: [
+    {
+      rel: 'canonical',
+      href: 'https://github.com/philoem',
+    }
+  ]
 };
