@@ -35,13 +35,14 @@ body {
 h1, p {
   color: white;
 }
-
-nav {
+ /* Navbar */
+ul {
+  list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1rem 2rem;
-  border: 1px solid var(--schist);
+  border: 1px solid var(--straw);
   position: sticky;
   min-width: 350px;
   border-radius: 12px;
@@ -50,5 +51,18 @@ nav {
 a {
   text-decoration: none;
   color: var(--cloud);
-  background-color: var(--woodland);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.28rem;
+  text-transform: capitalize;
 }
+
+a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px var(--straw); 
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+a:hover:after { transform: scaleX(1); }
