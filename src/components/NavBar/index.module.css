@@ -15,11 +15,13 @@
   justify-content: flex-start;
   margin: 0;
   padding: 0;
+  width: 50%;
 }
 .ulList {
   list-style: none;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .aLink {
   text-decoration: none;
@@ -42,26 +44,17 @@
   transform: scaleX(1);
 }
 
-#about{
-  width: 50%;
+#about, #experiences, #projects, #contact {
+  width: 100%;
 }
 #about:hover:after {
   width: 93%;
 }
-#experiences {
-  width: 100%;
-}
 #experiences:hover:after {
   width: 100%;
 }
-#projects {
-  width: 70%;
-}
 #projects:hover:after {
   width: 93%;
-}
-#contact {
-  width: 65%;
 }
 #contact:hover:after {
   width: 93%;
