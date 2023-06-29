@@ -1,0 +1,63 @@
+:root {
+  --woodland: #4D4B2C;
+  --straw: #D1BD89;
+  --schist: #A3B091;
+  --gothic: #6F979F;
+  --cloud: #C6C5C3;
+  --zeus: #1E1C18;
+  --kabul: #574C3E;
+  --peat: #6C6757;
+}
+
+.navContainer {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.ulList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.aLink {
+  text-decoration: none;
+}
+
+.aLink p {
+  color: var(--cloud);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.28rem;
+  text-transform: capitalize;
+}
+
+.aLink p:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px var(--straw); 
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.aLink p:hover:after { 
+  transform: scaleX(1); 
+  transition: transform 250ms ease-in-out;
+}
+
+#about:hover:after {
+  width: 50%;
+}
+#experiences:hover:after {
+  width: 100%;
+}
+#projects:hover:after {
+  width: 70%;
+}
+
+#contact:hover:after {
+  width: 65%;
+}
