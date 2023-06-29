@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  min-width: 350px;
+  justify-content: center;
+  /* margin: 0 auto; */
+  margin: 0;
+  padding: 0;
+}
+
+.sectionLeft {
+  background-color: orange;
+  width: 500px;
+}
+
+.sectionRight {
+  background-color: lightblue;
+  width: 500px;
+}
