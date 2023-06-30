@@ -4,6 +4,7 @@
   --schist: #A3B091;
   --gothic: #6F979F;
   --cloud: #C6C5C3;
+  --transparentCloud: #c6c5c379;
   --zeus: #1E1C18;
   --kabul: #574C3E;
   --peat: #6C6757;
@@ -52,7 +53,7 @@
   width: 60%;
   margin: 0;
   padding: 0;
-  color: var(--cloud);
+  color: var(--transparentCloud);
 }
 
 .aLink {
