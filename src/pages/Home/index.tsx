@@ -11,7 +11,7 @@ export default component$(() => {
 				<NavBar />
 			</header>
 			<main class={styles.sectionRight}>
-				<h2>About</h2>
+				<h2 id='about'>About</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor pellentesque enim
 					vel varius. Vestibulum rhoncus interdum felis. Ut magna odio, auctor id nisl sed, ultrices
@@ -92,7 +92,7 @@ export default component$(() => {
 					elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 					himenaeos. Integer sit amet ornare elit, eget eleifend odio. Quisque eget pharetra lectus.
 				</p>
-				<h2>Experiences</h2>
+				<h2 id='experiences'>Experiences</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor pellentesque enim
 					vel varius. Vestibulum rhoncus interdum felis. Ut magna odio, auctor id nisl sed, ultrices
@@ -173,7 +173,7 @@ export default component$(() => {
 					elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 					himenaeos. Integer sit amet ornare elit, eget eleifend odio. Quisque eget pharetra lectus.
 				</p>
-				<h2>Projects</h2>
+				<h2 id='projects'>Projects</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor pellentesque enim
 					vel varius. Vestibulum rhoncus interdum felis. Ut magna odio, auctor id nisl sed, ultrices
@@ -254,7 +254,7 @@ export default component$(() => {
 					elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 					himenaeos. Integer sit amet ornare elit, eget eleifend odio. Quisque eget pharetra lectus.
 				</p>
-				<h2>Contact</h2>
+				<h2 id='contact'>Contact</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor pellentesque enim
 					vel varius. Vestibulum rhoncus interdum felis. Ut magna odio, auctor id nisl sed, ultrices
