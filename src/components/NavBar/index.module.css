@@ -26,40 +26,27 @@
 }
 .liNavbar {
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 .aLink {
   text-decoration: none;
 }
-.aLink p {
+.textMenu {
   color: var(--cloud);
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.28rem;
   text-transform: capitalize;
 }
-.aLink p:after {
+.textMenu:after {
   display:block;
   content: '';
+  margin-bottom: -3px;
   border-bottom: solid 3px var(--straw); 
   transform: scaleX(0);  
   transition: transform 250ms ease-in-out;
 }
-.aLink p:hover:after { 
-  transform: scaleX(1);
-}
-
-#about, #experiences, #projects, #contact {
-  width: 100%;
-}
-#about:hover:after {
-  width: 93%;
-}
-#experiences:hover:after {
-  width: 100%;
-}
-#projects:hover:after {
-  width: 93%;
-}
-#contact:hover:after {
-  width: 93%;
+.textMenu:hover:after { 
+  transform: scaleX(1);  
 }
