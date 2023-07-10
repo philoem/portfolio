@@ -1,6 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { useLocation } from '@builder.io/qwik-city';
-import useHighLight from './hooks/useHighLight';
+import useMarkMenuItemActive from './hooks/useMarkMenuItemActive';
 import styles from './index.module.css';
 interface Navigation {
 	id: number;
@@ -11,7 +11,7 @@ interface Navigation {
 
 export default component$(() => {
 	const { url } = useLocation();
-	useHighLight();
+	useMarkMenuItemActive();
 	const navigation: Navigation[] = [
 		{
 			id: 1,

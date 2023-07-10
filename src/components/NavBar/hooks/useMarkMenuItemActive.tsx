@@ -1,6 +1,6 @@
 import { useVisibleTask$ } from '@builder.io/qwik';
 
-const useHighLight = () => {
+const useMarkMenuItemActive = () => {
 	useVisibleTask$(() => {
 		document.querySelectorAll('p').forEach((item) => {
 			item.addEventListener('click', () => {
@@ -14,4 +14,4 @@ const useHighLight = () => {
 		});
 	});
 };
-export default useHighLight;
+export default useMarkMenuItemActive;
